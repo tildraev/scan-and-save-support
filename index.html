@@ -1,9 +1,109 @@
 <!doctype html>
-<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Scan &amp; Save Support</title>
-<style>body{font:17px -apple-system,BlinkMacSystemFont,sans-serif;max-width:720px;margin:48px auto;padding:0 22px;line-height:1.55;color:#182126}a{color:#168f72}h1{font-size:36px}h2{margin-top:34px}</style>
-<h1>Scan &amp; Save</h1><p>Simple, private document scanning for iPhone.</p>
-<h2>Help</h2><p>Scan a document, review the pages, and save it as a PDF. Your saved scans stay on your device unless you choose to share them.</p>
-<p>For support, open an issue on the <a href="https://github.com/tildraev/scan-and-save-support/issues">GitHub support page</a>.</p>
-<h2>Policies</h2><p><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of use</a></p>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Help with Scan & Save for iPhone: scanning, folders, signatures, cleanup, original copies, and Pro.">
+  <title>Scan & Save · Help & Support</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="support.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to help</a>
+<header class="site-header wrap">
+  <a class="brand" href="./" aria-label="Scan and Save support home">
+    <img src="icon.svg" width="42" height="42" alt="">
+    <span>Scan &amp; Save<small>Help &amp; Support</small></span>
+  </a>
+  <nav aria-label="Main navigation">
+    <a href="#topics">Guides</a>
+    <a href="#contact">Contact support <span aria-hidden="true">↗</span></a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A little help with your paperless day</p>
+    <h1 id="hero-title">How can we help?</h1>
+    <p class="intro">From your first scan to your last signature.<br class="desktop-break"> Find simple answers, or get in touch with us.</p>
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+      <label class="sr-only" for="help-search">Search help topics</label>
+      <input id="help-search" type="search" placeholder="Search folders, signatures, scanning…" autocomplete="off" aria-controls="help-topics" disabled>
+      <span class="search-hint" aria-hidden="true">Find an answer</span>
+    </div>
+    <noscript><p>You can browse every guide below without turning on JavaScript.</p></noscript>
+    <p id="search-status" class="search-status" role="status" aria-live="polite" hidden></p>
+  </section>
+
+  <section class="wrap" id="topics" aria-labelledby="topics-title">
+    <div class="section-heading"><h2 id="topics-title">What would you like to do?</h2><span class="quiet">Start here</span></div>
+    <div class="topic-grid">
+      <a class="topic-card" href="#scanning"><span class="topic-icon" aria-hidden="true">▣</span><h3>Scan &amp; import</h3><p>Capture a page, get a sharper shot, or bring in a file.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="topic-card" href="#folders"><span class="topic-icon" aria-hidden="true">▤</span><h3>Folders &amp; finding</h3><p>Keep everything organized and easy to find.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="topic-card" href="#signatures"><span class="topic-icon script-icon" aria-hidden="true">S</span><h3>Sign a document</h3><p>Draw or type your name, then place it just right.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="topic-card" href="#editing"><span class="topic-icon" aria-hidden="true">✧</span><h3>Edit &amp; clean up</h3><p>Adjust a page, erase a mark, and review your changes.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="topic-card" href="#originals"><span class="topic-icon" aria-hidden="true">↶</span><h3>Restore an original</h3><p>Go back to the version you started with.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+      <a class="topic-card" href="#pro"><span class="topic-icon" aria-hidden="true">+</span><h3>Pro, sharing &amp; privacy</h3><p>Understand your plan and where your scans are saved.</p><span class="card-arrow" aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <div class="wrap help-layout" id="help-topics">
+    <aside class="guide-sidebar" aria-label="Guide topics">
+      <p class="eyebrow">THE GUIDES</p>
+      <a href="#scanning">Scan &amp; import</a><a href="#folders">Folders &amp; finding</a><a href="#signatures">Signatures</a><a href="#editing">Editing &amp; cleanup</a><a href="#originals">Original copies</a><a href="#pro">Pro &amp; privacy</a>
+      <div class="sidebar-note"><span aria-hidden="true">✉</span><p>Can’t find your answer?<br><a href="#contact">We’re here to help.</a></p></div>
+    </aside>
+    <div class="guide-content">
+      <section class="help-section" id="scanning" data-topic="Scan import camera focus photo file">
+        <p class="eyebrow">01 / GETTING STARTED</p><h2>Scan &amp; import</h2>
+        <details><summary>How do I scan a document?</summary><div class="answer"><ol><li>Tap <strong>Scan</strong>, or tap <strong>+</strong> and choose <strong>Scan with camera</strong>.</li><li>Use <strong>Full page</strong> for documents, or <strong>Close-up</strong> for small text.</li><li>Capture your pages and finish the scan.</li><li>Review the suggested name, change it if you like, then tap <strong>Save</strong>.</li></ol><p>Camera scanning needs a physical iPhone with camera access enabled.</p></div></details>
+        <details><summary>Why is small text blurry when I hold the phone close?</summary><div class="answer"><p>Try <strong>Close-up</strong> at the top of the scanner. On supported iPhones, it uses the camera designed for nearby subjects. Tap the text to focus, hold steady, and use good lighting.</p><p>If the text is still blurry, move the phone back slightly. Close-up mode captures the whole photo; Full page mode handles automatic page detection.</p></div></details>
+        <details><summary>Can I import an existing photo or PDF?</summary><div class="answer"><p>Tap <strong>+</strong> on the home screen, then choose <strong>Import photos</strong> or <strong>Import PDF or file</strong>. Select the files you want to bring into your library.</p></div></details>
+        <details><summary>Why is my suggested scan name missing or incorrect?</summary><div class="answer"><p>The app reads text from the scan before suggesting a name. If it cannot find a useful name, you can enter one yourself or keep <strong>Untitled scan</strong>. You can also rename a saved scan by pressing and holding it, then choosing <strong>Rename</strong>.</p></div></details>
+      </section>
+      <section class="help-section" id="folders" data-topic="Folders tags move select organize search unfiled">
+        <p class="eyebrow">02 / A PLACE FOR EVERYTHING</p><h2>Folders &amp; finding</h2>
+        <details><summary>How do I create a folder?</summary><div class="answer"><p>Folders are included with Pro. On the home screen, tap <strong>+</strong>, then <strong>New folder</strong>. Give it a name and tap <strong>Create</strong>. Open an existing folder first if you want the new folder inside it.</p></div></details>
+        <details><summary>How do I move several scans or folders at once?</summary><div class="answer"><ol><li>Tap <strong>Edit</strong> beside the folder title.</li><li>Select the scans or folders you want to move. You can use <strong>Select all</strong>.</li><li>Tap <strong>Move</strong> and choose a destination.</li></ol><p>To make a destination while moving, choose <strong>New folder</strong>, enter its name, choose where it belongs, then tap <strong>Create and move</strong>. The library opens the destination after a successful move.</p></div></details>
+        <details><summary>What do All scans and Unfiled mean?</summary><div class="answer"><p><strong>All scans</strong> shows every document in your library. <strong>Unfiled</strong> shows documents that have not been assigned to a folder.</p><p>In Edit mode, selecting All scans selects every document; selecting Unfiled selects only documents without a folder. These built-in views stay available after their contents are moved or deleted.</p></div></details>
+        <details><summary>How do I find text inside a scan?</summary><div class="answer"><p>Use <strong>Search scans</strong> on the home screen. Search checks document names, folder names, tags, and readable text found inside your scans. A search covers the whole library, even when you start inside a folder.</p></div></details>
+      </section>
+      <section class="help-section" id="signatures" data-topic="Signature sign type draw font resize drag">
+        <p class="eyebrow">03 / MAKE IT YOURS</p><h2>Signatures</h2>
+        <details><summary>How do I create a signature?</summary><div class="answer"><p>With Pro, open a document, tap the <strong>sparkle menu</strong>, choose <strong>Pro tools</strong>, then <strong>Create saved signature</strong>. You can draw your signature or choose <strong>Type</strong> to enter your name and preview different styles. Tap <strong>Save</strong> to keep it on your device.</p><p>You can also create a signature from the page editor when placing one.</p></div></details>
+        <details><summary>How do I place or resize a signature?</summary><div class="answer"><ol><li>Open the document and tap the <strong>pencil</strong>.</li><li>Tap the <strong>signature icon</strong> beside the page.</li><li>Drag the signature into position. Pinch or drag its corner to resize it.</li><li>Tap <strong>Apply</strong>, then <strong>Save</strong> in the page editor.</li></ol><p>A saved signature can be reused on another document.</p></div></details>
+      </section>
+      <section class="help-section" id="editing" data-topic="Edit cleanup clean erase mark shadow grayscale gray contrast zoom undo delete pages">
+        <p class="eyebrow">04 / FINISHING TOUCHES</p><h2>Editing &amp; cleanup</h2>
+        <details><summary>How do I change a page’s color, brightness, or contrast?</summary><div class="answer"><p>Open a document, tap the <strong>pencil</strong>, then the <strong>sliders icon</strong> beside a page. Adjust the controls, then tap <strong>Apply</strong> in the top-right corner. Tap <strong>Save</strong> in the page editor to keep your changes.</p></div></details>
+        <details><summary>How does Clean Up work?</summary><div class="answer"><p>In the page editor, tap the <strong>wand icon</strong>. Select a mark on plain paper, then tap <strong>Preview cleanup</strong>. The tool fills the selection with a nearby paper color, or white if you choose <strong>Use white paper</strong>.</p><p>Use <strong>Undo</strong> to step back, <strong>Save</strong> to accept the preview, or <strong>Cancel</strong> to discard it. Then save the page editor.</p><p><strong>Anything inside the selection is erased.</strong> Clean Up cannot reconstruct text or artwork hidden beneath a mark.</p></div></details>
+        <details><summary>Can I zoom in while cleaning up?</summary><div class="answer"><p>Yes. <strong>Pinch</strong> to zoom, move the page with <strong>two fingers</strong>, and drag with <strong>one finger</strong> to select an area. Tap <strong>Fit page</strong> to see the whole page again.</p></div></details>
+        <details><summary>What happens when I delete pages?</summary><div class="answer"><p>Page deletions are saved immediately. If you delete the last page, the app asks whether you want to delete the entire document.</p><p>You can restore pages removed from an existing document with <strong>Revert to original</strong>. Deleting the entire document also removes its saved original.</p></div></details>
+      </section>
+      <section class="help-section" id="originals" data-topic="Original restore revert backup undo color grayscale gray lost pages">
+        <p class="eyebrow">05 / A FRESH START</p><h2>Original copies</h2>
+        <details><summary>How do I revert to the original document?</summary><div class="answer"><p>Open the document, tap the <strong>sparkle menu</strong>, choose <strong>Revert to original</strong>, and confirm. This restores the original pages, including available color and pages removed during editing. Later page edits, signatures, and cleanup are removed. The document’s name and folder stay the same.</p></div></details>
+        <details><summary>Can I get color back after saving a scan as grayscale?</summary><div class="answer"><p>If the saved original contains color, <strong>Revert to original</strong> brings it back. New scans preserve the camera-provided images before the app’s color filter; imports preserve their source.</p><p>For documents saved before original-copy preservation was added, the earliest available version is the one saved at that time. Color already discarded from that version cannot be recovered.</p></div></details>
+        <details><summary>Does keeping an original mean I can restore a deleted document?</summary><div class="answer"><p>No. The original is kept alongside a document for reverting edits. Deleting the entire document removes both copies. Keep a separate copy of documents you need to retain, and check that any cloud synchronization has completed before relying on it.</p></div></details>
+      </section>
+      <section class="help-section" id="pro" data-topic="Pro purchase restore free limit rewarded video share export recipe iCloud privacy account">
+        <p class="eyebrow">06 / THE OTHER DETAILS</p><h2>Pro, sharing &amp; privacy</h2>
+        <details><summary>What happens when I use my free scan allowance?</summary><div class="answer"><p>The free plan includes two scan sessions per day, with up to ten pages per session. The limit prompt offers <strong>Watch a video</strong>, <strong>Unlock Pro</strong>, and <strong>Cancel</strong>. A rewarded video can provide another session when a video is available.</p></div></details>
+        <details><summary>How do I unlock Pro or restore a purchase?</summary><div class="answer"><p>Open <strong>Settings → Scan &amp; Save Pro</strong>. Choose <strong>Unlock Pro</strong> to view the available purchase, or <strong>Restore Purchase</strong> if you already bought Pro using your Apple Account.</p><p>If the app says purchases are not available yet, please check back later or contact support. Your existing scans remain available.</p></div></details>
+        <details><summary>How do I share a PDF or use saved export settings?</summary><div class="answer"><p>Open a scan and tap the <strong>Share</strong> icon to send its PDF to an app or location you choose. Pro’s Advanced Export offers additional format and quality settings.</p><p><strong>Run saved export recipe</strong> reuses the format and image quality you saved in Advanced Export, then opens the sharing menu. It does not send a document by itself.</p></div></details>
+        <details><summary>Where are my scans stored?</summary><div class="answer"><p>Documents are saved on your device. Pro includes iCloud features that use your private iCloud account when configured and available. Sharing a scan passes the selected file to the app or service you choose.</p><p>You do not need a Scan &amp; Save account. See our <a href="privacy.html">privacy policy</a> for more information.</p></div></details>
+      </section>
+      <div id="no-results" class="no-results" hidden><h2>No matching guide yet.</h2><p>Try a shorter search, browse the topics above, or <a href="#contact">contact support</a>.</p><button class="text-button" id="clear-search" type="button">Clear search</button></div>
+    </div>
+  </div>
+
+  <section class="contact-section wrap" id="contact" aria-labelledby="contact-title">
+    <div><p class="eyebrow">A REAL PERSON, A LITTLE HELP</p><h2 id="contact-title">Still need a hand?</h2><p>Tell us what happened and what you were trying to do. Your iPhone model, app version, and the steps that led to the issue will help us find an answer.</p><p class="contact-note">You choose what to share. Please leave out private document details unless they are needed to explain the issue.</p></div>
+    <div class="contact-action"><a class="primary-button" href="mailto:scanandsavesupport@gmail.com?subject=Scan%20%26%20Save%20support">Contact support <span aria-hidden="true">↗</span></a><a class="email-link" href="mailto:scanandsavesupport@gmail.com">scanandsavesupport@gmail.com</a><span class="quiet">Opens your email app. No account with us required.</span></div>
+  </section>
+</main>
+<footer class="site-footer wrap"><a class="footer-brand" href="./">Scan &amp; Save</a><p>Less paper. More peace of mind.</p><nav aria-label="Legal"><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></nav></footer>
+</body>
 </html>
